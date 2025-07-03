@@ -13,14 +13,7 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-
-          - aarch64_generic
-          - i386_pentium-mmx
-          - loongarch64_generic
-          - mips_mips32
           - mipsel_24kc
-          - mipsel_mips32
-          - x86_64
         sdk:
           - openwrt-24.10
           - SNAPSHOT
